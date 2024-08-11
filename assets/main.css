@@ -15,40 +15,40 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
 
+/* Container to hold everything and align with the top picture */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; /* Adjust width as needed */
+}
+
+/* Paragraph styling */
+p {
+    margin-left: 20px; /* Adjust to align with the image */
+    margin-right: 20px; /* Ensure even spacing */
+    text-align: justify; /* Justify text for a clean look */
+}
+
+/* List styling */
 .fancy-bullets {
     list-style: none; /* Remove default bullets */
-    margin-left: 20px; /* Align with paragraph */
+    margin-left: 20px; /* Align the bullets with the paragraph */
     padding-left: 0; /* Remove default padding */
 }
 
 .fancy-bullets li {
     position: relative;
-    padding-left: 30px; /* Space for the custom bullet */
+    padding-left: 40px; /* Adjust to match paragraph indent */
     margin-bottom: 10px; /* Space between items */
 }
 
 .fancy-bullets li:before {
-    content: "\2022"; /* Unicode for a bullet symbol (•), change this to any other symbol */
-    font-family: Arial, sans-serif; /* Choose a font that fits the design */
+    content: "\1F4A1"; /* Unicode for light bulb */
     font-size: 1.5em; /* Adjust size as needed */
     color: #FF5733; /* Custom color for the bullet */
     position: absolute;
     left: 0;
     top: 0;
-}
-
-/* Ensures both paragraph and list align consistently */
-p, ol {
-    margin-left: 20px; /* Adjust margin to align with the heading */
-    margin-right: 20px;
-}
-
-ol {
-    padding-left: 20px; /* Align the list with the paragraph */
-}
-
-ol li {
-    margin-bottom: 10px; /* Add space between list items */
 }
 
 *{
