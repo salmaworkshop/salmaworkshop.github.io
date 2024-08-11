@@ -15,24 +15,43 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
 
-/* Container to hold everything and align with the top picture */
-.container {
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 80%; /* Adjust width as needed */
+.resized-image {
+    width: 1000px; /* Set the width of the image */
+    height: 400px; /* Set the height of the image */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    display: block; /* Ensure the image is treated as a block-level element */
+
 }
 
-/* Paragraph styling */
-p {
-    margin-left: 20px; /* Adjust to align with the image */
-    margin-right: 20px; /* Ensure even spacing */
-    text-align: justify; /* Justify text for a clean look */
+
+.date-venue {
+    position: absolute;
+    top: 28px; /* Adjusted to create space between top and text */
+    left: 12px; /* Adjusted to create space between left edge and text */
+    font-size: 1.8em; /* Reduced font size */
+    color: #fafafa;
+    text-align: left;
+    line-height: 1.5em;
+    padding: 0; /* Removed padding to avoid extra space */
+    margin-top: 50px; /* Added margin to push down below the title */
+    text-shadow: 0px 0px 6px #000000;
+}
+
+.container p {
+    margin-left: 35px; /* Increase this value to indent the paragraph */
+}
+
+/* Container to hold everything and align with the top picture */
+.container {
+    margin-left: 0px;
+    margin-right: 10px;
+    width: 80%; /* Adjust width as needed */
 }
 
 /* List styling */
 .fancy-bullets {
     list-style: none; /* Remove default bullets */
-    margin-left: 20px; /* Align the bullets with the paragraph */
+    margin-left: 80px; /* Align the bullets with the paragraph */
     padding-left: 0; /* Remove default padding */
 }
 
@@ -113,8 +132,28 @@ th,td{
 }
 
 /* Website Banner */
-.banner {position: relative; font-family:'Roboto Slab',serif;}
-.top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
+
+/* .banner {position: relative; width: 100%; font-family:'Roboto Slab',serif;} */
+.banner {
+    width: 1000px; /* Set the banner width */
+    margin: 0 auto; /* Center the banner */
+    position: relative;
+    font-family:'Roboto Slab',serif;
+}
+
+/* .top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;} */
+.top-left {
+    font-size: 5.1em; /* Adjust font size to fit the title in one line */
+    color: #505050; 
+    background: #fafafa; 
+    text-align: center; 
+    width: 100%; /* Set width to 100% to ensure the title spans the entire container */
+    height: auto; /* Set height to auto to adjust based on content */
+    position: absolute; 
+    padding: 20px 0; /* Adjust padding as needed */
+    top: 0px;
+    left: 0px; /* Ensure the title aligns with the left edge */
+}
 .bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
 .top-right {
     font-size: 2.33em; /* Adjust as needed */
@@ -131,13 +170,35 @@ th,td{
 }
 
 /* Conference Title Logo */
-.title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
+.title1{color: #b2132e; font-size:0.57em; text-shadow: 1px 1px 3px #c0c0c0;} 
 .title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
 .year{color: #505050; font-size:0.67em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
-table.navigation{width:800px;}
+table.navigation{width:1000px;}
 td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+.navigation {
+    width: 1000px; /* Make the table width match the image */
+    margin: 0 auto; /* Center the table */
+    text-align: center;
+    margin-top: 10px; /* Add space between image and navigation */
+    padding: 0;
+}
+
+.navigation td {
+    padding: 10px; /* Add padding inside table cells */
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #444;
+    padding: 10px;
+}
+
+.navigation a.current {
+    color: #1e70bf; /* Highlight the current link */
+}
 
 /* Sponsor Images */
 table.sponsors{width:800px;}
