@@ -15,6 +15,42 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
 
+.fancy-bullets {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 0; /* Remove left padding */
+}
+
+.fancy-bullets li {
+    position: relative;
+    padding-left: 40px; /* Space for custom bullet */
+    margin-bottom: 10px; /* Space between items */
+}
+
+.fancy-bullets li:before {
+    content: "\1F4A1"; /* Unicode for light bulb, change to any other symbol */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.5em; /* Adjust size as needed */
+    color: #FF5733; /* Custom color for the bullet */
+}
+
+
+/* Ensures both paragraph and list align consistently */
+p, ol {
+    margin-left: 20px; /* Adjust this value as needed to match the alignment */
+    margin-right: 20px; /* Optional: If you want to control the right margin too */
+}
+
+p {
+    text-align: justify; /* Justifies text to match the width of the list */
+}
+
+ol {
+    list-style-position: outside; /* Ensures bullets are outside the list items */
+    padding-left: 20px; /* Matches the margin of the paragraph */
+}
+
 *{
     border:0;
     font:inherit;
