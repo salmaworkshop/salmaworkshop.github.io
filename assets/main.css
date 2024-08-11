@@ -17,8 +17,8 @@
 
 /* Container to hold everything and align with the top picture */
 .container {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     width: 80%; /* Adjust width as needed */
 }
 
