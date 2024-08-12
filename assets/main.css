@@ -71,7 +71,7 @@
 
 .fancy-bullets-2 {
     list-style: none; /* Remove default bullet styling */
-    margin-left: 50px; /* Align the bullets with the paragraph */
+    margin-left: 80px; /* Align the bullets with the paragraph */
     padding-left: 0; /* Remove default padding */
 }
 
