@@ -365,3 +365,99 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     display: block;
 }
 
+/* Mobile-Friendly Adjustments */
+@media only screen and (max-width: 1100px) {
+    body {
+        width: 90%; /* Use a percentage for the body width */
+        margin: 20px auto; /* Reduce margin on smaller screens */
+    }
+
+    .container, p, ul {
+        width: 100%; /* Ensure these elements take up full width */
+        margin-left: 0; /* Remove left margin for better mobile alignment */
+    }
+
+    .resized-image {
+        width: 100%; /* Allow image to scale with screen size */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .speakers {
+        grid-template-columns: 1fr; /* Stack items vertically on smaller screens */
+    }
+
+    h1, h2, h3, h4 {
+        font-size: 1.5em; /* Adjust font sizes for readability on smaller screens */
+    }
+
+    .top-left {
+        font-size: 3em; /* Reduce title size for smaller screens */
+    }
+
+    .navigation a {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    /* Adjusting sponsors section for mobile */
+    .sponsor {
+        width: 100%; /* Make sponsor containers full width */
+        padding: 20px; /* Add some padding for spacing */
+    }
+
+    .sponsor img {
+        max-width: 80%; /* Reduce image size on smaller screens */
+        margin: 0 auto; /* Center the image */
+    }
+
+    .sponsor-last {
+        flex-direction: column; /* Stack items vertically */
+        gap: 50px; /* Adjust gap for better spacing on mobile */
+    }
+
+    .fancy-bullets, .fancy-bullets-2 {
+        margin-left: 20px; /* Reduce margin for better mobile alignment */
+    }
+}
+
+/* Additional Media Queries for smaller devices */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em; /* Further reduce title size for tablets */
+    }
+
+    p, ul {
+        font-size: 1.2em; /* Adjust text size for readability */
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .banner {
+        width: 100%; /* Make banner responsive */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5em; /* Title size for smartphones */
+    }
+
+    p, ul {
+        font-size: 1em; /* Text size for smartphones */
+    }
+
+    .navigation a {
+        padding: 5px; /* Further reduce padding on smaller screens */
+    }
+
+    .banner {
+        width: 100%; /* Make banner responsive */
+    }
+
+    .resized-image {
+        width: 100%; /* Allow image to scale with screen size */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
