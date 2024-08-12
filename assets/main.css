@@ -20,7 +20,6 @@
     height: 400px; /* Set the height of the image */
     object-fit: cover; /* Ensures the image covers the area without distortion */
     display: block; /* Ensure the image is treated as a block-level element */
-
 }
 
 
@@ -72,7 +71,7 @@
 
 .fancy-bullets-2 {
     list-style: none; /* Remove default bullet styling */
-    margin-left: 80px; /* Align the bullets with the paragraph */
+    margin-left: 50px; /* Align the bullets with the paragraph */
     padding-left: 0; /* Remove default padding */
 }
 
@@ -86,10 +85,10 @@
     content: ""; /* No content, just styling */
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%); /* Vertically center the bullet */
-    width: 10px; /* Bullet width */
-    height: 10px; /* Bullet height */
+    width: 6px; /* Bullet width */
+    height: 6px; /* Bullet height */
     background-color: #040404; /* Custom bullet color */
     border-radius: 50%; /* Make it circular */
 }
