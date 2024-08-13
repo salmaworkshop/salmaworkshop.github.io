@@ -221,7 +221,6 @@ td.navigation {
     padding: 0;
     margin: 0;
     justify-content: center; /* Center the navigation menu */
-    flex-wrap: wrap; /* Allow the menu items to wrap on smaller screens */
     flex-basis: auto; 
     white-space: nowrap; /* Prevent text from wrapping inside items */
 }
@@ -490,5 +489,33 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 
     .navigation a {
         font-size: 12px; /* Further reduce font size for very small screens */
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    td.navigation {
+        font-size: 1.2em; /* Reduce font size on smaller screens */
+        padding: 0 8px; /* Adjust padding for better spacing */
+    }
+}
+
+@media (max-width: 480px) {
+    td.navigation {
+        font-size: 1em; /* Further reduce font size on very small screens */
+        padding: 0 5px; /* Further adjust padding */
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .title1 {
+        font-size: 2em; /* Slightly reduce font size on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .title1 {
+        font-size: 1.8em; /* Set a minimum font size for small screens */
     }
 }
