@@ -17,7 +17,7 @@
 
 
 .resized-image {
-    width: 1000px; /* Set the width of the image */
+    width: 100%; /* Set the width of the image */
     height: 400px; /* Set the height of the image */
     object-fit: cover; /* Ensures the image covers the area without distortion */
     display: block; /* Ensure the image is treated as a block-level element */
@@ -159,7 +159,7 @@ th,td{
 
 /* .banner {position: relative; width: 100%; font-family:'Roboto Slab',serif;} */
 .banner {
-    width: 1000px; /* Set the banner width */
+    width: 100%; /* Set the banner width */
     margin: 0 auto; /* Center the banner */
     position: relative;
     font-family:'Roboto Slab',serif;
