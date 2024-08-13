@@ -162,6 +162,9 @@ th,td{
     margin: 0 auto; /* Center the banner */
     position: relative;
     font-family:'Roboto Slab',serif;
+    justify-content: center; /* Center the navigation menu */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow-x: auto; /* Allow horizontal scrolling if necessary */
 }
 
 /* .top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;} */
@@ -510,13 +513,13 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .title1 {
-        font-size: 8em; /* Slightly reduce font size on medium screens */
+        font-size: 16em; /* Slightly reduce font size on medium screens */
     }
 }
 
 @media (max-width: 480px) {
     .title1 {
-        font-size: 4.8em; /* Set a minimum font size for small screens */
+        font-size: 10.8em; /* Set a minimum font size for small screens */
     }
 }
 
