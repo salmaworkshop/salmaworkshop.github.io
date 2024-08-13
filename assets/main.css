@@ -207,6 +207,10 @@ table.navigation {
     text-align: center;
     padding: 0;
     border-spacing: 0; /* Remove space between table cells */
+    display: flex;
+    justify-content: center; /* Center the navigation menu */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow-x: auto; /* Allow horizontal scrolling if necessary */
 }
 
 td.navigation {
@@ -216,6 +220,10 @@ td.navigation {
     vertical-align: middle;
     padding: 0;
     margin: 0;
+    justify-content: center; /* Center the navigation menu */
+    flex-wrap: wrap; /* Allow the menu items to wrap on smaller screens */
+    flex-basis: auto; 
+    white-space: nowrap; /* Prevent text from wrapping inside items */
 }
 
 .navigation a {
