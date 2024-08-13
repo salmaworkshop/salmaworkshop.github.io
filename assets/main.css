@@ -362,7 +362,7 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 }
 
 .sponsor-last img {
-    max-width: 400px; /* Increase the size of the images */
+    width: 50%;
     height: auto; /* Maintain aspect ratio */
     display: block;
 }
