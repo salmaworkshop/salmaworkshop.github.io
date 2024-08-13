@@ -38,7 +38,7 @@
 }
 
 .container p {
-    /* margin-left: 35px; Increase this value to indent the paragraph */
+    margin-left: auto;
 }
 
 /* Container to hold everything and align with the top picture */
@@ -434,7 +434,7 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     }
 
     .fancy-bullets, .fancy-bullets-2 {
-        margin-left: 20px; /* Reduce margin for better mobile alignment */
+        margin-left: auto; /* Reduce margin for better mobile alignment */
     }
 }
 
