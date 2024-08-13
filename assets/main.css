@@ -23,6 +23,29 @@
     display: block; /* Ensure the image is treated as a block-level element */
 }
 
+div.scrollmenu {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  div.scrollmenu a:hover {
+    background-color: #c2c2c2;
+  }
+
+  a.current {
+    background-color: #c2c2c2;
+  }
+
 
 .date-venue {
     position: absolute;
@@ -118,7 +141,7 @@ body{
 
 a{color: #b8860b; text-decoration:none;}
 a.current{color: #52739e;}
-a.current:hover{color: #e82945;}
+/* a.current:hover{color: #e82945;} */
 a:hover{color: #b2132e;}
 a:active{color: #e82945;}
 h1,h2,h3,h4{clear:left; color: #813c54; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
