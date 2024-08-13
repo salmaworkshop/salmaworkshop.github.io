@@ -4,7 +4,7 @@
  * I've listed them here so that a user may easily
  * do a search-and-replace for these to change the site theme.
  *   'Roboto',sans-serif; Font for the title text
- *   'Roboto-Slab',serif; Font for the body text 
+ *   'Roboto-Slab',serif; Font for the body text
  *   #fafafa; Background color of the site
  *   #505050; Foreground (text) color of the site
  *   #52739e; Navy, "Template" in the logo, current page in navigation, special titles in the Program
@@ -107,7 +107,7 @@ body{
     background-color: #fafafa;
     background-size: cover;
     background-attachment: fixed;
-    color: #505050; 
+    color: #505050;
     text-align:left;
     font-family:'Roboto',sans-serif;
     font-size:1em;
@@ -126,7 +126,7 @@ h1{font-size:2.67em;}
 h2{font-size:2.00em;}
 h3{font-size:1.67em;}
 h4{font-size:1.33em;}
-p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
+p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:justify;}
 li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
 ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
 ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
@@ -176,12 +176,12 @@ th,td{
 /* .top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;} */
 .top-left {
     font-size: 5.1em; /* Adjust font size to fit the title in one line */
-    color: #505050; 
-    background: #fafafa; 
-    text-align: center; 
+    color: #505050;
+    background: #fafafa;
+    text-align: center;
     width: 100%; /* Set width to 100% to ensure the title spans the entire container */
     height: auto; /* Set height to auto to adjust based on content */
-    position: absolute; 
+    position: absolute;
     padding: 20px 0; /* Adjust padding as needed */
     top: 0px;
     left: 0px; /* Ensure the title aligns with the left edge */
@@ -202,7 +202,7 @@ th,td{
 }
 
 /* Conference Title Logo */
-.title1{color: #b2132e; font-size:0.57em; text-shadow: 1px 1px 3px #c0c0c0;} 
+.title1{color: #b2132e; font-size:0.57em; text-shadow: 1px 1px 3px #c0c0c0;}
 .title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
 .year{color: #505050; font-size:0.67em; font-weight: lighter;}
 
@@ -231,7 +231,7 @@ td.navigation {
     padding: 0;
     margin: 0;
     justify-content: center; /* Center the navigation menu */
-    flex-basis: auto; 
+    flex-basis: auto;
     white-space: nowrap; /* Prevent text from wrapping inside items */
 }
 
