@@ -38,14 +38,14 @@
 }
 
 .container p {
-    margin-left: 35px; /* Increase this value to indent the paragraph */
+    /* margin-left: 35px; Increase this value to indent the paragraph */
 }
 
 /* Container to hold everything and align with the top picture */
 .container {
     margin-left: 0px;
     margin-right: 10px;
-    width: 80%; /* Adjust width as needed */
+    width: 100%; /* Adjust width as needed */
 }
 
 /* List styling */
