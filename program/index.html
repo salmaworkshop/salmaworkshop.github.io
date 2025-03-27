@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang='en'>
-
 <head>
     <base href="..">
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
@@ -18,6 +15,7 @@
             font-family: 'Helvetica Neue', sans-serif;
             line-height: 1.6;
             padding: 2em;
+            margin: 0; /* remove default browser margin */
         }
         h2 {
             margin-top: 2em;
@@ -38,10 +36,41 @@
             color: #444;
             font-style: italic;
         }
+        /* Banner styling */
+        .banner {
+            position: relative;
+            text-align: center; /* or left if preferred */
+            margin-bottom: 2em; /* space below the banner */
+        }
+        .banner img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .scrollmenu {
+            margin-top: 0.5em;
+        }
+        .scrollmenu a {
+            text-decoration: none;
+            margin: 0 1em;
+            color: #0073e6;
+        }
+        .top-left {
+            margin-top: 1em;
+            font-weight: bold;
+            font-size: 1.4em;
+        }
+        .date-venue {
+            margin-top: 0.5em;
+            font-size: 1em;
+            color: #333;
+        }
+        .title1 {
+            font-size: 1.4em;
+            font-weight: bold;
+        }
     </style>
 </head>
-
-<body>
 
     <div class="banner">
         <div class="banner">
