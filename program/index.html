@@ -1,108 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <base href="..">
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
-    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
-    <script type="text/javascript" async
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=default">
-    </script>
-    <meta name="description" content="ICASSP 2025 SALMA Workshop Program">
-    <meta name="resource-type" content="document">
-    <meta name="distribution" content="global">
-    <meta name="KeyWords" content="Conference">
-    <title>Workshop Program</title>
-    <style>
-        body {
-            font-family: 'Helvetica Neue', sans-serif;
-            line-height: 1.6;
-            padding: 2em;
-            margin: 0; /* remove default browser margin */
-        }
-        h2 {
-            margin-top: 2em;
-            font-size: 1.8em;
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 0.3em;
-        }
-        p {
-            margin: 0.5em 0;
-        }
-        ul, ol {
-            padding-left: 1.5em;
-        }
-        li {
-            margin-bottom: 1em;
-        }
-        em {
-            color: #444;
-            font-style: italic;
-        }
-        /* Banner styling */
-        .banner {
-            position: relative;
-            text-align: center; /* or left if preferred */
-            margin-bottom: 2em; /* space below the banner */
-        }
-        .banner img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
-        .scrollmenu {
-            margin-top: 0.5em;
-        }
-        .scrollmenu a {
-            text-decoration: none;
-            margin: 0 1em;
-            color: #0073e6;
-        }
-        .top-left {
-            margin-top: 1em;
-            font-weight: bold;
-            font-size: 1.4em;
-        }
-        .date-venue {
-            margin-top: 0.5em;
-            font-size: 1em;
-            color: #333;
-        }
-        .title1 {
-            font-size: 1.4em;
-            font-weight: bold;
-        }
-    </style>
+  <base href="..">
+  <meta charset="UTF-8" />
+  <title>Workshop Program</title>
+  <meta name="description" content="ICASSP 2025 SALMA Workshop Program">
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+  <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #fff;
+    }
+
+    .banner-container {
+      position: relative;
+      text-align: left;
+      color: white;
+    }
+
+    .banner-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .banner-text {
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      color: white;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    .banner-text .title1 {
+      font-size: 2em;
+      font-weight: bold;
+      color: #b30000;
+    }
+
+    .banner-text .date-venue {
+      margin-top: 0.5em;
+      font-size: 1.1em;
+      color: #fff;
+    }
+
+    .scrollmenu {
+      background-color: #f9f9f9;
+      overflow: auto;
+      white-space: nowrap;
+      text-align: center;
+      padding: 0.5em 0;
+    }
+
+    .scrollmenu a {
+      display: inline-block;
+      color: black;
+      text-decoration: none;
+      padding: 0.5em 1.5em;
+      font-weight: bold;
+    }
+
+    .scrollmenu a.current {
+      background-color: #e6e6e6;
+    }
+
+    .content {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-top: 2em;
+      font-size: 1.8em;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.3em;
+      color: #663344;
+    }
+
+    p, li {
+      font-size: 1em;
+      color: #222;
+    }
+
+    li {
+      margin-bottom: 1em;
+    }
+
+    em {
+      font-style: italic;
+      color: #555;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3em;
+      padding: 2em 1em;
+      font-size: 0.9em;
+      background: #f2f2f2;
+    }
+  </style>
 </head>
 
-    <div class="banner">
-        <div class="banner">
-            <img src="assets/banner_final.jpeg" alt="resized-image">
-            <div class="scrollmenu">
-                <a class="Conference Home Page" href="./index.html">Home</a>
-                <a title="Call for Papers" href="call/index.html">Call for Papers</a>
-                <a class="current" title="Workshop Program" href="program/index.html">Program</a>
-                <a title="Workshop Flyer" href="flyer/index.html">Other Details</a>
-            </div>
-        </div>
-        <div class="top-left">
-            <span class="title1">SALMA: Speech and Audio Language Models</span>
-        </div>
-        <div class="date-venue">
-            Co-located with IEEE ICASSP 2025<br> 2:00 pm - 5:30 pm, April 06-11, 2025 <br> Room MR1.04 <br> HICC, Hyderabad, India
-        </div>
-    </div>
+<body>
 
+  <div class="banner-container">
+    <img src="assets/banner_final.jpeg" alt="Banner Image">
+    <div class="banner-text">
+      <div class="title1">SALMA: Speech and Audio Language Models</div>
+      <div class="date-venue">
+        Co-located with IEEE ICASSP 2025<br>
+        2:00 pm - 5:30 pm, April 06–11, 2025<br>
+        Room MR1.04<br>
+        HICC, Hyderabad, India
+      </div>
+    </div>
+  </div>
+
+  <div class="scrollmenu">
+    <a href="./index.html">Home</a>
+    <a href="call/index.html">Call for Papers</a>
+    <a class="current" href="program/index.html">Program</a>
+    <a href="flyer/index.html">Other Details</a>
+  </div>
+
+  <div class="content">
     <h2>Workshop Program</h2>
     <p><strong>Date &amp; Time:</strong> April 7, 2:00 pm – 5:30 pm</p>
     <p><strong>Venue:</strong> HYDERABAD INTERNATIONAL CONVENTION CENTRE (HICC)</p>
     <p><strong>Room:</strong> MR1.04</p>
 
     <h2>Detailed Program</h2>
-    <!-- <ul> -->
-        <p><strong>Overview Talk:</strong> 15 mins (2:00 – 2:15 pm)</p>
-        <p><strong>Invited Talk: Oriol Nieto</strong> – 25 mins (2:15 – 2:45 pm)</p>
-        <p><strong>Invited Talk: Bhuvana Ramabhadran</strong> – 25 mins (2:45 – 3:15 pm)</p>
-        <p><strong>Invited Talk: Zhuo Chen</strong> – 25 mins (3:15 – 3:45 pm)</p>
-        <p><strong>Tea Break:</strong> 15 mins (3:45 – 4:00 pm)</p>
-        <p><strong>Poster Session:</strong> 90 mins (4:00 – 5:30 pm)</p>
+    <p><strong>Overview Talk:</strong> 15 mins (2:00 – 2:15 pm)</p>
+    <p><strong>Invited Talk: Oriol Nieto</strong> – 25 mins (2:15 – 2:45 pm)</p>
+    <p><strong>Invited Talk: Bhuvana Ramabhadran</strong> – 25 mins (2:45 – 3:15 pm)</p>
+    <p><strong>Invited Talk: Zhuo Chen</strong> – 25 mins (3:15 – 3:45 pm)</p>
+    <p><strong>Tea Break:</strong> 15 mins (3:45 – 4:00 pm)</p>
+    <p><strong>Poster Session:</strong> 90 mins (4:00 – 5:30 pm)</p>
     <!-- </ul> -->
 
     <h2>List of Accepted Papers</h2>
