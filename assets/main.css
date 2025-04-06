@@ -596,3 +596,35 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     background-color: #0056b3;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
+
+.talk-details {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.talk-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.talk-card h3 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.talk-card h4 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.talk-card p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
